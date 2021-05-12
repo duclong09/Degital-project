@@ -60,3 +60,35 @@ h2{
 .btn-full:active{
     background-color: #BD0592;
 }
+/* ============================= */
+/* Phần menu-nav */
+.logo{
+
+    height: 120px;
+    width: auto;
+    float: left;
+}
+
+.menu-nav li{
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+.menu-nav li a:link,
+.menu-nav li a:visited{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.menu-nav li a:hover,
+.menu-nav li a:active{
+    border-bottom: 2px solid #ed07b7;
+}
+
+
+.menu-nav{
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+}

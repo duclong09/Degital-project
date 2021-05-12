@@ -30,6 +30,10 @@ header{
 .header-box-text{
     margin-bottom: 40px;
 }
+
+
+
+
 h1{
     font-size: 500%;
     color: #ffff;
@@ -60,6 +64,22 @@ h2{
 .btn-full:active{
     background-color: #BD0592;
 }
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 2px solid #ed07b7;
+    color:#ed07b7;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #BD0592;
+    color: #fff;
+}
+    
+
 /* ============================= */
 /* Phần menu-nav */
 .logo{
@@ -92,3 +112,37 @@ h2{
     float: right;
     margin-top: 50px;
 }
+
+
+
+/* ======================================= */
+/* Phần About__section */
+.laptop-image {
+	width:80%;
+    padding-right: 80px;
+}
+
+.about-heading {
+	color:#000;
+	font-size:400%;
+	font-weight:500;
+	margin-bottom:50px;
+}
+
+.about-para {
+	color:#555;
+	margin-bottom:50px;
+}
+
+.about-box {
+	margin-top:150px;
+}
+
+.about-box:first-child {
+	text-align:left;
+	padding:0 5%;
+}
+.about-box:last-child {
+	text-align:right;
+}
+

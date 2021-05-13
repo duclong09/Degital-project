@@ -6,6 +6,7 @@ Hình ảnh: https://unsplash.com/
 logo: từ các công ty như: tma, lampart v.v.v
 reponsive: http://www.responsivegridsystem.com dowload thằng này về sử dụng.
 ý tưởng từ : Degisolve nhìn vào và cắt theo giao diện, trên này rất nhiều giao diện để cách html css.
+font: fontasoware
 
 
 Reponsive có sẵn chỉ cần import vào:

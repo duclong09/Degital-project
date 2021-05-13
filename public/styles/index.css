@@ -12,6 +12,11 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
 }
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* Header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
@@ -110,99 +115,140 @@ h2 {
 /* ======================================= */
 /* Phần About__section */
 .laptop-image {
-  width: 80%;
-  padding-right: 80px;
+	width:80%;
 }
 
 .about-heading {
-  color: #000;
-  font-size: 400%;
-  font-weight: 500;
-  margin-bottom: 50px;
+	color:#000;
+	font-size:250%;
+	font-weight:500;
+	margin-bottom:50px;
 }
 
 .about-para {
-  color: #555;
-  margin-bottom: 50px;
+	color:#555;
+	margin-bottom:50px;
 }
 
 .about-box {
-  margin-top: 150px;
+	margin-top:150px;
 }
 
 .about-box:first-child {
-  text-align: left;
-  padding: 0 5%;
+	text-align:left;
+	padding:0 5%;
 }
 .about-box:last-child {
-  text-align: right;
+	text-align:right;
 }
 
-.about-section{
-  padding-bottom: 40px;
+.about-section {
+	padding-bottom:20px;
 }
 /* Work-Secion =================================== */
-.section-heading{
+.section-heading {
   font-size: 250%;
   color: #000;
   margin-bottom: 20px;
   margin-top: 150px;
 }
 
-.section-sub-heading{
+.section-sub-heading {
   font-size: 150%;
   color: #555;
   font-weight: 300;
   margin-bottom: 30px;
 }
 
-.section-sub-heading::after{
+.section-sub-heading::after {
   display: block;
   height: 2px;
   width: 100px;
-  background-color:#ed07b7;
-  content:" ";
+  background-color: #ed07b7;
+  content: " ";
   margin: 30px auto 0 auto;
-
 }
 
-.work-section{
+.work-section {
   text-align: center;
   background-color: #f4f4f4;
 }
 
-.work-portfolio{
+.work-portfolio {
   margin-top: 10px;
   list-style: none;
   width: 100%;
 }
 
-.work-portfolio li{
+.work-portfolio li {
   display: block;
   width: 25%;
   float: left;
-  
 }
 
-.portfolio-image{
+.portfolio-image {
   background-color: #000;
   overflow: hidden;
-
 }
 
-.portfolio-image img{
+.portfolio-image img {
   width: 100%;
   height: auto;
   opacity: 0.5;
   transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s;
 }
-.portfolio-image img:hover{
+.portfolio-image img:hover {
   transform: scale(1);
   opacity: 1;
   cursor: pointer;
 }
 
-.work-para{
+.work-para {
   color: #ffff;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ====================================== */
+/* Building the Services Page  */
+.services-section{
+  text-align: center;
+  background-color: #f4f4f4;
+}
+.services-box{
+  padding: 1% 3%;
+  
+}
+
+.big-icon{
+  font-size: 250%;
+  color: #6920b0;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.services-heading{
+  font-size: 150%;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.services-para{
+  color: #555;
+  font-size: 90%;
+  margin-bottom: 20px;
+}
+
+.services-link{
+  color: #ed07b7;
+  text-transform: uppercase;
+  text-decoration: none;
 }

@@ -13,7 +13,7 @@ body {
   font-size: 16px;
 }
 
-.row{
+.row {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -115,35 +115,35 @@ h2 {
 /* ======================================= */
 /* Phần About__section */
 .laptop-image {
-	width:80%;
+  width: 80%;
 }
 
 .about-heading {
-	color:#000;
-	font-size:250%;
-	font-weight:500;
-	margin-bottom:50px;
+  color: #000;
+  font-size: 250%;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
 
 .about-para {
-	color:#555;
-	margin-bottom:50px;
+  color: #555;
+  margin-bottom: 50px;
 }
 
 .about-box {
-	margin-top:150px;
+  margin-top: 150px;
 }
 
 .about-box:first-child {
-	text-align:left;
-	padding:0 5%;
+  text-align: left;
+  padding: 0 5%;
 }
 .about-box:last-child {
-	text-align:right;
+  text-align: right;
 }
 
 .about-section {
-	padding-bottom:20px;
+  padding-bottom: 20px;
 }
 /* Work-Secion =================================== */
 .section-heading {
@@ -158,7 +158,7 @@ h2 {
   color: #555;
   font-weight: 300;
   margin-bottom: 30px;
-  line-height: 1.5 ;
+  line-height: 1.5;
 }
 
 .section-sub-heading::after {
@@ -220,48 +220,98 @@ h2 {
 
 /* ====================================== */
 /* Building the Services Page  */
-.services-section{
+.services-section {
   text-align: center;
   background-color: #f4f4f4;
 }
-.services-box{
+.services-box {
   padding: 1% 3%;
-  
 }
 
-.big-icon{
+.big-icon {
   font-size: 250%;
   color: #6920b0;
   display: block;
   margin-bottom: 30px;
 }
 
-.services-heading{
+.services-heading {
   font-size: 150%;
   margin-bottom: 30px;
   font-weight: 400;
 }
 
-.services-para{
+.services-para {
   color: #555;
   font-size: 90%;
   margin-bottom: 20px;
 }
 
-.services-link{
+.services-link {
   color: #ed07b7;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-
 /* Liên kết với các doanh nghiệp */
-.partners-section{
+.partners-section {
   text-align: center;
 }
 
-.partners-logo{
+.partners-logo {
   width: 40%;
   height: auto;
+  cursor: pointer;
+}
+
+/* Building the Testimonials Page */
+.testimonials-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url(../image/testmon.jpg);
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
   
+  color: #ffff;
+}
+
+.testimonials-heading {
+  font-size: 250%;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+.testimonials-box {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+
+blockquote:before {
+  content: "\201C";
+  display: block;
+  font-size: 500%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+}
+
+cite{
+  display: block;
+  margin-top: 25px;
+  font-size: 90%;  
+}
+
+cite img{
+  border-radius: 50%;
+  height: 20%;
+  vertical-align: middle;
+  margin-right: 10px;
+    
 }

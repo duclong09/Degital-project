@@ -4,48 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digisolve- The Degital Agency For Winners</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script
       src="https://kit.fontawesome.com/f0b4d212f8.js"
       crossorigin="anonymous"
     ></script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="vendors/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./public/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./public/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./public/favicon/site.webmanifest" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./public/styles/fluid.css" />
-    <link rel="stylesheet" href="./public/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="./public/styles/fluid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./public/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="./public/styles/media.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <!-- thẻ nav tạo logo + menu -->
+
+      <!-- Header --> 
+    <header id="home">
       <nav>
         <img
           src="./public/image/digisolve-logo.png"
-          alt="DegitalSolve"
-          class="logo-nav"
+          alt="Digisolve Logo"
+          class="logo"
         />
-        <ul class="menu-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
       <div class="header-box">
-        <div class="header-box-text">
+        <div class="header-text-box">
           <h1>Digital Agency</h1>
           <h2>The one stop for all your digital solutions</h2>
         </div>
-        <a href="#" class="btn btn-full">Get a Quote Today!</a>
+        <a href="#" class="btn btn-full js--scroll-to-contact"
+          >Get a Quote Today!</a
+        >
       </div>
     </header>
 
+
     <!-- About section -->
-    <section class="about-section">
+    <section class="about-section js--about-section" id="about">
       <div class="row">
-        <div class="col span_1_of_2 about-box">
+        <div class="col span_1_of_2 about-box js--about-box">
           <h2 class="about-heading">
             A Digital Agency Focused On Growing your Online presence
           </h2>
@@ -59,7 +85,7 @@
           </p>
           <a href="#" class="btn btn-ghost">Read More</a>
         </div>
-        <div class="col span_1_of_2 about-box">
+        <div class="col span_1_of_2 about-box js--about-box">
           <img
             src="./public/image/about-img.jpg"
             alt="Digisolve app on Laptop"
@@ -68,38 +94,39 @@
         </div>
       </div>
     </section>
-
-    <!-- Danh sách phần danh mục đầu tư -->
+   <!-- Danh sách phần danh mục đầu tư -->
     <section class="work-section">
       <div class="row">
         <h2 class="section-heading">Our Work</h2>
         <h3 class="section-sub-heading">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
         </h3>
       </div>
-
       <ul class="work-portfolio clearfix">
         <li>
           <figure class="portfolio-image">
-            <img src="./public/image/www1.jpg" alt="Online Advertising Image" />
+            <img
+              src="./public/image/www1.jpg"
+              alt="Online Advertising Image"
+            />
             <p class="work-para">Online Advertising</p>
           </figure>
         </li>
-
         <li>
           <figure class="portfolio-image">
-            <img src="./public/image/www2.jpg" alt="Social Media Campaign" />
+            <img
+              src="./public/image/www2.jpg"
+              alt="Social Media Campaign"
+            />
             <p class="work-para">Social Media Campaign</p>
           </figure>
         </li>
-
         <li>
           <figure class="portfolio-image">
             <img src="./public/image/ww4.jpg" alt="UX Desig" />
             <p class="work-para">UX Design</p>
           </figure>
         </li>
-
         <li>
           <figure class="portfolio-image">
             <img
@@ -112,8 +139,9 @@
       </ul>
     </section>
 
-    <!-- Building the Services Page -->
-    <section class="services-section">
+
+      <!-- Building the Services Page -->
+    <section class="services-section js--services-section">
       <div class="row">
         <h2 class="section-heading">Our Services</h2>
         <h3 class="section-sub-heading">
@@ -121,46 +149,47 @@
         </h3>
       </div>
       <div class="row">
-        <div class="col span_1_of_4 services-box">
+        <div class="col span_1_of_4 service-box js--service-box">
           <i class="fas fa-tags big-icon"></i>
-          <h4 class="services-heading">Branding</h4>
-          <p class="services-para">
+          <h4 class="service-heading">Branding</h4>
+          <p class="service-para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec.
           </p>
-          <a href="#" class="services-link">Read More...</a>
+          <a href="#" class="service-link">Read More...</a>
         </div>
-        <div class="col span_1_of_4 services-box">
+        <div class="col span_1_of_4 service-box js--service-box">
           <i class="fas fa-pen-alt big-icon"></i>
-          <h4 class="services-heading">Content</h4>
-          <p class="services-para">
+          <h4 class="service-heading">Content</h4>
+          <p class="service-para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec.
           </p>
-          <a href="#" class="services-link">Read More...</a>
+          <a href="#" class="service-link">Read More...</a>
         </div>
-        <div class="col span_1_of_4 services-box">
+        <div class="col span_1_of_4 service-box js--service-box">
           <i class="fas fa-funnel-dollar big-icon"></i>
-          <h4 class="services-heading">Marketing</h4>
-          <p class="services-para">
+          <h4 class="service-heading">Marketing</h4>
+          <p class="service-para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec.
           </p>
-          <a href="#" class="services-link">Read More...</a>
+          <a href="#" class="service-link">Read More...</a>
         </div>
-        <div class="col span_1_of_4 services-box">
+        <div class="col span_1_of_4 service-box js--service-box">
           <i class="fas fa-code big-icon"></i>
-          <h4 class="services-heading">Web Design</h4>
-          <p class="services-para">
+          <h4 class="service-heading">Web Design</h4>
+          <p class="service-para">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec.
           </p>
-          <a href="#" class="services-link">Read More...</a>
+          <a href="#" class="service-link">Read More...</a>
         </div>
       </div>
     </section>
 
-    <!-- Building the Featured Clients Page -->
+
+      <!-- Building the Featured Clients Page -->
     <section class="partners-section">
       <div class="row">
         <h2 class="section-heading">Featured Clients</h2>
@@ -169,37 +198,33 @@
           some of our Amazing Partners
         </h3>
       </div>
-
       <div class="row">
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/tma.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/sorimachi.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/foody.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/fpt.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
       </div>
@@ -207,90 +232,83 @@
       <div class="row">
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/kiwi.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/cocobeach.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/lampart.jpg"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
-
         <div class="col span_1_of_4">
           <img
-            class="partners-logo"
+            class="partner-logo"
             src="./public/image/refun.png"
-            alt="Brand-log"
+            alt="Brand Logo"
           />
         </div>
       </div>
     </section>
 
-    <!-- Building the Testimonials Page -->
+
+        <!-- Building the Testimonials Page -->
     <section class="testimonials-section">
       <div class="row">
-        <h2 class="testimonials-heading">Our Testimonials</h2>
+        <h2 class="testimonial-heading">Our Testimonials</h2>
       </div>
-
       <div class="row">
-        <div class="col span_1_of_3 testimonials-box">
+        <div class="col span_1_of_3 testimonial-box">
           <blockquote>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </blockquote>
-
-          <cite>
-            <img src="./public/image/client-1.jpg" alt="duclong" />
-            Đức Long
-          </cite>
+          <cite
+            ><img src="./public/image/client-1.jpg" alt="Arron Cruz" />Đức
+            Long</cite
+          >
         </div>
-
-        <div class="col span_1_of_3 testimonials-box">
+        <div class="col span_1_of_3 testimonial-box">
           <blockquote>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </blockquote>
-
-          <cite>
-            <img src="./public/image/client-2.jpg" alt="duclong" />
-            Đức Long
-          </cite>
+          <cite
+            ><img src="./public/image/client-1.jpg" alt="Jeff Jones" />Đức Long
+            </cite
+          >
         </div>
-
-        <div class="col span_1_of_3 testimonials-box">
+        <div class="col span_1_of_3 testimonial-box">
           <blockquote>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </blockquote>
-
-          <cite>
-            <img src="./public/image/client-3.jpg" alt="duclong" />
-            Đức Long
-          </cite>
+          <cite
+            ><img
+              src="./public/image/client-1.jpg"
+              alt="Elenise da Conceicao"
+            />Đức Long</cite
+          >
         </div>
       </div>
     </section>
 
-    <!-- Building the Popular Packages Section -->
 
-    <section class="packages-section">
+      <!-- Building the Popular Packages Section -->
+    <section class="packages-section js--packages-section">
       <div class="row">
         <h2 class="packages-heading">Check out Our Most Popular Packages</h2>
       </div>
-
       <div class="row">
         <div class="col span_1_of_3">
           <div class="package-box">
@@ -390,9 +408,10 @@
       </div>
     </section>
 
-    <!-- Building the Contact Form -->
 
-    <section class="contact-section">
+        <!-- Building the Contact Form -->
+
+    <section class="contact-section js--contact" id="contact">
       <div class="row">
         <h2 class="contact-heading">We're happy to hear from you</h2>
       </div>
@@ -460,7 +479,7 @@
         </form>
       </div>
     </section>
-
+<!-- Footer -->
     <footer>
       <div class="row">
         <div class="col span_1_of_2">
@@ -491,10 +510,16 @@
       </div>
       <div class="row">
         <p>
-            Nếu những thứ tôi làm cho đến nay mới chỉ là bắt đầu <br>
-            Thì tôi phải làm gì tiếp theo!
+          If everything I've done so far is really just the beginning, what do I do next?
         </p>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="./public/js/app.js"></script>
   </body>
 </html>

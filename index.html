@@ -389,5 +389,76 @@
         </div>
       </div>
     </section>
+
+    <!-- Building the Contact Form -->
+
+    <section class="contact-section">
+      <div class="row">
+        <h2 class="contact-heading">We're happy to hear from you</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span_1_of_3 contact-label">
+              <label for="name">Name</label>
+            </div>
+            <div class="col span_2_of_3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span_1_of_3 contact-label">
+              <label for="email">Email</label>
+            </div>
+            <div class="col span_2_of_3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span_1_of_3 contact-label">
+              <label for="newsletter">Newsletter?</label>
+            </div>
+            <div class="col span_2_of_3">
+              <input
+                type="checkbox"
+                name="newsletter"
+                id="newsletter"
+                checked
+              />&nbsp;Yes, Please
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span_1_of_3 contact-label">
+              <label for="message">Drop us a line</label>
+            </div>
+            <div class="col span_2_of_3">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span_1_of_3">&nbsp;</div>
+            <div class="col span_2_of_3">
+              <input type="submit" value="Send it!" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

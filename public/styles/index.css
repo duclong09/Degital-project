@@ -52,22 +52,27 @@ h2 {
 }
 
 .btn:link,
-.btn:visited {
-  text-decoration: none;
-  padding: 10px 30px;
-  border-radius: 200px;
-  display: inline-block;
+.btn:visited,
+input[type=submit] 
+ {
+	text-decoration:none;
+	padding:10px 30px;
+	border-radius:200px;
+	display:inline-block;
 }
 
+
 .btn-full:link,
-.btn-full:visited {
-  background-color: #ed07b7;
-  color: #ffff;
+.btn-full:visited,
+input[type=submit] {
+	background-color:#ed07b7;
+	color:#fff;
 }
 
 .btn-full:hover,
-.btn-full:active {
-  background-color: #bd0592;
+.btn-full:active,
+input[type=submit]:hover {
+	background-color:#BD0592;
 }
 /* ========================== Bonus cái thẻ button Redmore */
 .btn-ghost:link,
@@ -397,3 +402,47 @@ cite img{
 	background-color:#fcfcfc;
 } 
 
+/* Contact-Section */
+
+.contact-section {
+	text-align:center;
+}
+
+.contact-heading {
+	color:#000;
+	margin-top:150px;
+	margin-bottom:50px;
+}
+
+.contact-form {
+	text-align:left;
+	width:60%;
+	margin:0 auto;
+	color:#555;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	width:100%;
+	padding:8px;
+	border-radius:3px;
+	border:1px solid #ccc;
+	background-color:#fff;
+}
+
+input[type=submit] {
+	border:0;
+}
+
+input[type=checkbox] {
+	margin: 10px 5px 10px 0;
+}
+
+textarea {
+	height:100px;
+}
+
+*:focus {
+	outline:none;
+}

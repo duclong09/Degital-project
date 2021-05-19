@@ -76,4 +76,5 @@ http://imakewebthings.com/waypoints/
 
 
 https://codepen.io/duclong09
+https://web.dev/learn/css/animations/
 Tương tự cho các row- Group Girl còn lại như Ide4,5,6,7......

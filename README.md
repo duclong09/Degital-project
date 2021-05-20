@@ -77,4 +77,7 @@ http://imakewebthings.com/waypoints/
 
 https://codepen.io/duclong09
 https://web.dev/learn/css/animations/
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+font-family: 'Poppins', sans-serif; 
 Tương tự cho các row- Group Girl còn lại như Ide4,5,6,7......

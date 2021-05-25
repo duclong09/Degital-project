@@ -86,3 +86,5 @@ Tương tự cho các row- Group Girl còn lại như Ide4,5,6,7......
   --private-color: #00aefd;
   --secondary-color: #ffa400;
 }
+
+https://htmlcolorcodes.com/
